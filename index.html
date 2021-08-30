@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEU</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Trouve le nombre !</h1>
+    <p>Trouve le nombre entre 0 et 100.Tu as 5 essais</p>
+    <div class="vies">
+        <ion-icon name="heart-empty"></ion-icon>
+        <ion-icon name="heart"></ion-icon> <!--ionicons(site pour le telechargement)-->
+    </div>
+    <form  id="inputBox">
+        <label for="number">Entrez un nombre :</label>
+        <input type="number" id="number" min="0" max="100" required>
+        <button id="essayerBtn">Essayer</button>
+        <p id="message">Lorem ipsum dolor sit amet.</p>
+        <button id="rejouer">Rejouer ?</button>
+    </form>
+    <p id="details">* Brulant = &plusmn; 2 ; Chaud = &plusmn; 5 ; Tiede = &plusmn; 10 ; Froid = + de 10. </p>
+    
+</div>
+    
+
+<script src="./app.js"></script>  
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>  
+</body>
+</html>
